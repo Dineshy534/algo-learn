@@ -4,6 +4,8 @@ public class StringCompression {
 
     public static void main(String[] args){
         char[] chars = {'a','b','b','b','b','b','b','b','b','b','b','b','b','b','b','b','b','b','b','b','b','b'};
+        //Above chars array can be compressed as ['a','b','2','1'] : 'b' repeated 21 times..
+        // and return the compressed array size
         System.out.println(compress(chars));
     }
     private static int compress(char[] chars){
